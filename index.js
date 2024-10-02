@@ -18,7 +18,7 @@
 
 // if(ladoA ===  ladoB && ladoB === ladoC){
 // document.write('o triângulo é equilátero');
-// } else if (ladoA != ladoB && ladoB != ladoC) {
+// } else if (ladoA != ladoB && ladoB != ladoC) 
 //     document.write('é um triângulo escaleno');
 // } else {
 //     document.write('é um triângulo isósceles');
@@ -27,27 +27,24 @@
 //EXEMPLO3: Verificar se um ano é bissexto. (Um ano é bissexto se for divisível por 4.
 //Não é bissexto se for divisível por 100, a menos que também seja divisível por 400.)
 
-// function bissexto(ano) {
-//     return (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
-// }
 // let ano = prompt('Digite um ano');
 
-// if (bissexto (ano)){
+// if (ano % 4 == 0){
 // document.write('o ano ' + ano + ' é bissexto.')
 // } else {
 //     document.write('o ano ' + ano + ' não é bissexto')
 // }
 
 //EXEMPLO4: Determinar o maior entre três números. (dificil)
+//obs: colocar o number na declaraçao faz com que o prompt leia número. pois por padrão o prompt ler tudo em string, e isso pode dar problema quando colocar um número 12, pois ele vai ler 1 e 2.
+// let numero1 = Number (prompt('Digite um número'));
+// let numero2 = Number (prompt('Digite outro número'));
+// let numero3 = Number (prompt('Digite mais um número'));
 
-// let numero1 = prompt('Digite um número');
-// let numero2 = prompt('Digite outro número');
-// let numero3 = prompt('Digite mais um número');
-
-// if (numero1 > numero2 && numero3){
+// if (numero1 > numero2 && numero1 > numero3){
 //     document.write('o ' + numero1 + ' é o maior');
 
-// }else if(numero2 > numero1 && numero3){
+// }else if(numero2 > numero1 && numero2 > numero3){
 //     document.write('o ' + numero2 + ' é o maior');
 
 // }else{
@@ -65,6 +62,8 @@
 // }
 
 //EXEMPLO6: Calcular o preço final de um produto com base na quantidade comprada. (DIFÍCIL)
+
+let preco = Number (pro)
 
 //EXEMPLO7: Converter uma nota em conceito. (DIFÍCIL)
 
@@ -99,6 +98,8 @@
 // }
 
 //EXEMPLO9: Determinar o dia da semana com base em um número. (DIFICIL)
+
+
 
 //EXEMPLO10: Calcular o imposto de renda de uma pessoa com base em sua renda anual. (DIFÍCIL)
 
